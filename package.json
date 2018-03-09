@@ -1,0 +1,20 @@
+{
+  "name": "go-fonts",
+  "version": "1.0.0",
+  "description": "Golang fonts as a node packaged module",
+  "main": "index.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bcomnes/go-fonts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bcomnes/go-fonts/issues"
+  },
+  "homepage": "https://github.com/bcomnes/go-fonts#readme"
+}
