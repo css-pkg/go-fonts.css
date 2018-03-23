@@ -1,6 +1,6 @@
 {
   "name": "go-fonts.css",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Golang fonts as a node packaged module",
   "main": "index.css",
   "repository": {
