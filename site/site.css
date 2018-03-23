@@ -1,0 +1,68 @@
+@import 'highlight.js/styles/github.css';
+@import 'style.css';
+@import 'top-bar.css';
+@import '../example.css';
+
+/* Document level */
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-weight: unset;
+}
+
+/* Markdown Body layout */
+.markdown-body {
+  max-width: 50em;
+  margin: 2em auto;
+  padding: 0 1em;
+  overflow: hidden;
+  word-wrap: break-word;
+  flex-grow: 1;
+}
+.markdown-body > *:first-child { margin-top: 0 !important; }
+.markdown-body > *:last-child { margin-bottom: 0 !important; }
+
+.markdown-body h1, h2, h3, h4, h5, h6 {
+  font-weight: 200;
+}
+
+.markdown-body h2 {
+  font-size: 1.85em;
+}
+
+/* Sticky header footer top-bar */
+.top-bar {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+nav.top-bar {
+  position: sticky;
+  top: -1px;
+}
+
+footer.top-bar {
+  position: sticky;
+  bottom: 1px;
+}
+
+footer > .top-bar-link:first-child {
+  margin-left: unset;
+}
+
+@media screen and (max-width: 85em) {
+  nav.top-bar, footer.top-bar {
+    position: inherit;
+    top: inherit;
+    bottom: inherit;
+  }
+}
+
+@media print {
+  nav.top-bar, footer.top-bar {
+    position: inherit;
+    top: inherit;
+    bottom: inherit;
+  }
+}
