@@ -3,7 +3,7 @@
   "description": "Golang fonts as a node packaged module",
   "version": "1.0.1",
   "bugs": {
-    "url": "https://github.com/bcomnes/go-fonts/issues"
+    "url": "https://github.com/bcomnes/go-fonts.css/issues"
   },
   "devDependencies": {
     "autoprefixer": "^8.0.0",
@@ -23,13 +23,13 @@
     "top-bar.css": "^1.2.0",
     "watchify": "^3.11.0"
   },
-  "homepage": "https://github.com/bcomnes/go-fonts#readme",
+  "homepage": "https://github.com/bcomnes/go-fonts.css#readme",
   "keywords": [],
   "license": "ISC",
   "main": "index.css",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bcomnes/go-fonts.git"
+    "url": "git+https://github.com/bcomnes/go-fonts.css.git"
   },
   "scripts": {
     "build": "npm run clean && run-p build:*",
