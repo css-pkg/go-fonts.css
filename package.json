@@ -2,6 +2,7 @@
   "name": "go-fonts.css",
   "description": "Golang fonts as a node packaged module",
   "version": "1.0.1",
+  "author": "Bret Comnes",
   "bugs": {
     "url": "https://github.com/bcomnes/go-fonts.css/issues"
   },
@@ -23,8 +24,8 @@
     "top-bar.css": "^1.2.0",
     "watchify": "^3.11.0"
   },
-  "homepage": "https://github.com/bcomnes/go-fonts.css#readme",
-  "keywords": [],
+  "homepage": "https://go-fonts.netlify.com",
+  "keywords": [ "css", "fonts", "font", "golang", "Go", "Go Mono", "woff"],
   "license": "ISC",
   "main": "index.css",
   "repository": {
